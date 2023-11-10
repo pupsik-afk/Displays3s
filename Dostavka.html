@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка</title>
+    <link rel="stylesheet" href="css/Laba1.css">
+</head>
+<body>
+    <hr class="ZhirnLin">
+    
+    <header>
+            <div class="strelka">
+                <a href="https://ya.ru">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M7.17758 14.1148C7.03508 14.1148 6.89258 14.0623 6.78008 13.9498L2.22758 9.39734C2.01008 9.17984 2.01008 8.81984 2.22758 8.60234L6.78008 4.04984C6.99758 3.83234 7.35758 3.83234 7.57508 4.04984C7.79258 4.26734 7.79258 4.62734 7.57508 4.84484L3.42008 8.99984L7.57508 13.1548C7.79258 13.3723 7.79258 13.7323 7.57508 13.9498C7.47008 14.0623 7.32008 14.1148 7.17758 14.1148Z" fill="#243757"/>
+                        <path d="M15.3749 9.5625H2.75244C2.44494 9.5625 2.18994 9.3075 2.18994 9C2.18994 8.6925 2.44494 8.4375 2.75244 8.4375H15.3749C15.6824 8.4375 15.9374 8.6925 15.9374 9C15.9374 9.3075 15.6824 9.5625 15.3749 9.5625Z" fill="#243757"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="PersDan">
+                <span>Контактные данные</span>
+            </div>
+    </header>
+
+
+
+    <br>
+    <form action="http://127.0.0.1:5000" method="dialog">
+
+        <div name="Otpravitel">
+            <span class="Otpr">Отправитель</span>
+            <div class="horizontal-list" id="list">
+                <div class="list-item1">
+                    Я
+                    <svg class="crugvibor" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <circle cx="8" cy="8" r="4" fill="white"/>
+                        <circle cx="8" cy="8" r="7.5" stroke="white"/>
+                    </svg>
+                </div>
+                <div class="list-item">Глебов И.</div>
+            </div>
+            <input type="text" id="itemInput" placeholder="Добавить новый элемент">
+            <button onclick="addItem()">Добавить нового</button>
+            <script src="horizontal_list.js"></script>
+        </div>
+
+
+
+        <br>
+        <span class="Otpr">Получатель</span>
+        <div class="DANNblE">
+            <span class="fio">Фамилия имя отчество*</span>
+            <br>
+            <input class="fio1" type="text" name="full_name" placeholder="Введите фамилию имя отчество" required>
+        </div>
+
+        <div class="DANNblE1">
+            <span class="fio">Телефон*</span>
+            <br>
+            <input class="fio1" type="text" name="phone" placeholder="Введите телефон" required>
+        </div>
+
+        <div class="DANNblE1">
+            <span class="fio">Населенный пункт*</span>
+            <br>
+            <input class="fio1" type="text" name="place" placeholder="Введите название" required>
+        </div>
+
+        <div class="DANNblE1">
+            <span class="fio">Улица*</span>
+            <br>
+            <input class="fio1" type="text" name="street" placeholder="Введите название" required>
+        </div>
+        <div class="flexblocks">
+            <div class="nizblock">
+                <span class="fio">Дом*</span>
+                <br>
+                <input class="nizblocktext" type="text" name="house" placeholder="Введите номер" required>
+            </div>
+            
+            <div class="nizblock">
+                <span class="fio">Квартира*</span>
+                <br>
+                <input class="nizblocktext" type="text" name="apartment" placeholder="Введите номер" required>
+            </div>
+        </div>
+
+        <div class="flexblocks">
+            <div class="nizblock1">
+                <span class="fio">Подъезд*</span>
+                <br>
+                <input class="nizblocktext" type="text" name="podezd" placeholder="Введите номер" required>
+            </div>
+
+            <div class="nizblock1">
+                <span class="fio">Домофон или код*</span>
+                <br>
+                <input class="nizblocktext" type="text" name="domofon" placeholder="Введите номер" required>
+            </div>
+        </div>
+
+        <br>
+        <div class="galochka">
+            <input type="checkbox" name="agreement" required>
+            <span class="textgal">Согласие на обработку персональных данных</span>
+        </div>
+        
+
+        <br>
+        <br>
+        <div class="btn1">
+            <input class="btn1" type="submit" value="Далее">
+            <svg class="btn1strelka" xmlns="http://www.w3.org/2000/svg" width="33" height="14" viewBox="0 0 33 14" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M29.3279 7.68909L24.9356 12.0255L25.9227 13L32 7L25.9227 1L24.9356 1.97452L29.3279 6.31091H1V7.68909H29.3279Z" fill="white" stroke="white"/>
+            </svg>
+        </div>
+    </form>
+</body>
+</html>

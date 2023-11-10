@@ -1,0 +1,314 @@
+.ZhirnLin
+{
+    border: 0;
+    height: 1px;
+    background-color: grey;
+}
+
+.strelka, .PersDan
+{
+    display: inline-block;
+    
+}
+
+.strelka
+{
+    border-radius: 10px;
+    border: 1px solid #E8E8F0;
+    background: #E8E8F0;
+    font-size: 25px;
+}
+
+.PersDan
+{
+    text-align: center;
+    color: #243757;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*DANNblE*/
+.DANNblE
+{
+    width: 345px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #E8E8F0;
+    background: #F7F9FD;
+}
+.fio
+{
+    color: #575757;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.fio1
+{
+    width: 300px;
+    background: #F7F9FD;
+    border: none;
+    outline: none;
+    appearance: none;
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+/*DANNblE1*/
+.DANNblE1
+{
+    width: 345px;
+    height: 76px;
+    flex-shrink: 0;
+    border: 1px solid #E8E8F0;
+    background: #F7F9FD;
+}
+
+
+/*links*/
+.link
+{
+    width: 345px;
+    height: 76px;
+    flex-shrink: 0;
+    border: 1px solid #D1D1DB;
+    background: #E8E8F0;
+}
+
+.link1
+{
+    width: 345px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #D1D1DB;
+    background: #E8E8F0;
+}
+
+.linktext
+{
+    width: 254px;
+    color: #575757;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.skrepka
+{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+
+
+/*galochka*/
+.galochka
+{
+    border: none;
+    outline: none;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E8E8F0;
+    background: #FAFAFA;
+}
+
+.textgal
+{
+    width: 315px;
+    color: #243757;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.textgal, .galochka
+{
+    display: inline-block;
+}
+
+
+
+/*button*/
+.btn
+{
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(235deg, #5E62DF 34.69%, #AD86F0 77.01%);
+    box-shadow: 0px 5px 19px -8px rgba(96, 98, 223, 0.26);
+    display: flex;
+    width: 345px;
+    height: 66px;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+
+
+/*Dostavka*/
+.Otpr
+{
+    color: #243757;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.horizontal-list {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.list-item1 {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #937AEA;
+    background: #937AEA;
+    padding: 17px 18px;
+    align-items: flex-start;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.list-item {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #E8E8F0;
+    background: #F7F9FD;
+    padding: 17px 18px;
+    align-items: flex-start;
+    color: #243757;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.crugvibor
+{
+    width: 16px;
+    height: 16px;
+}
+
+.selected {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+.nizblock
+{
+    width: 171.253px;
+    height: 76px;
+    flex-shrink: 0;
+    border: 1px solid #E8E8F0;
+    background: #F7F9FD;
+}
+
+.nizblock1
+{
+    width: 171.253px;
+    height: 76px;
+    flex-shrink: 0;
+    border: 1px solid #E8E8F0;
+    background: #F7F9FD;
+}
+
+.nizblocktext
+{
+    width: 130.568px;
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: none;
+    outline: none;
+    background: #F7F9FD;
+}
+
+.btn1
+{
+    display: inline-flex;
+    height: 66px;
+    padding: 0px 45px 0px 52px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 81px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #243757;
+    box-shadow: 0px 5px 19px -8px rgba(36, 55, 87, 0.22);
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn1strelka
+{
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #FFF;
+    width: 31px;
+    height: 12px;
+}
+
+.flexblocks
+{
+    display: flex;
+} 
