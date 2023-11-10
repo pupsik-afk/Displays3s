@@ -6,8 +6,8 @@
 
 .strelka,
 .PersDan {
-    display: inline-block;
-
+    display: inline-flex;
+    margin-right: 90px;
 }
 
 .strelka {
@@ -20,7 +20,6 @@
 .PersDan {
     text-align: center;
     color: #243757;
-    text-align: center;
     font-family: Gilroy;
     font-size: 25px;
     font-style: normal;
@@ -31,10 +30,10 @@
 
 /*PhotoDoc*/
 .PhoDoc {
-    align-items: center;
     width: 94px;
     height: 132.706px;
     flex-shrink: 0;
+    margin-left: 135px;
 }
 
 .Text
@@ -64,7 +63,7 @@
     text-decoration: none;
     display: inline-flex;
     height: 5px;
-    padding: 23px 56px 23px 40px;
+    padding: 23px 22px 23px ;
     align-items: center;
     flex-shrink: 0;
     border-radius: 10px;
@@ -120,7 +119,7 @@
     box-shadow: 0px 5px 19px -8px rgba(96, 98, 223, 0.26);
     display: flex;
     width: 345px;
-    height: 66px;
+    height: 40px;
     padding: 14px 32px;
     justify-content: center;
     align-items: center;

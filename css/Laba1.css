@@ -13,8 +13,8 @@
 
 .strelka, .PersDan
 {
-    display: inline-block;
-    
+    display: inline-flex;
+    margin-right: 40px;
 }
 
 .strelka
@@ -27,6 +27,7 @@
 
 .PersDan
 {
+    align-items: center;
     text-align: center;
     color: #243757;
     text-align: center;
